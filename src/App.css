@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,9 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.App{
+  background: #000428;  
+  background: linear-gradient(to right,#000428,70%, #012341); 
+  color: white;
 }
