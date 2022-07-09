@@ -39,7 +39,7 @@ const Carousel = () => {
           </div>
         </div>
         <a
-          className="carousel-control-prev"
+          className="carousel-control-prev "
           href="#carouselExampleIndicators"
           role="button"
           data-slide="prev"

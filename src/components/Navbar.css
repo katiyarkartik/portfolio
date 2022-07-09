@@ -67,7 +67,6 @@
     list-style: none;
     height: 60px;
   }
-   
   .nav-text a {
     text-decoration: none;
     color: #f5f5f5;
@@ -104,7 +103,9 @@
   .nav-menu-items {
     width: 100%;
   }
-  
+  .active{
+     color: #ffb510;
+  }
   .navbar-toggle {
     background-color: #003A5A;
     width: 100%;
@@ -125,7 +126,7 @@
    }
   }
 
-  .tooltip {
+  /* .tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
@@ -143,14 +144,14 @@
     border-radius: 6px;
     padding: 5px 0;
   
-    /* Position the tooltip */
+    
     position: absolute;
     z-index: 1;
   }
   
   .tooltip:hover .tooltiptext {
     visibility: visible;
-  }
+  } */
   .nav-icon{
     font-size: 1rem;
     margin-top: .2rem;margin-bottom: .2rem;

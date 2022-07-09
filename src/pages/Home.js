@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import * as AiIcon from "react-icons/ai";
+import * as SiIcon from "react-icons/si";
 import * as BsIcon from "react-icons/bs";
 import Carousel from "../components/Carousel";
 import TechStack from "../components/TechStack";
@@ -17,7 +18,7 @@ const Home = () => {
               <AiIcon.AiFillLinkedin />
             </li>
             <li>
-              <BsIcon.BsFacebook />
+              <SiIcon.SiLeetcode />
             </li>
           </ul>
         </div>
@@ -47,10 +48,11 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <hr color="#ffb510" className="sec-div"/>
-      <div>
+      {/* <hr color="#ffb510" className="sec-div"/> */}
+      {/* <div>
         <TechStack />
       </div>
+     */}
     </>
   );
 };

@@ -1,4 +1,9 @@
 .footer{
+    padding-top: 1rem;
+    text-align: center;
     background-color:rgb(1, 0, 32);
     height: 4rem;
+}
+.footer-icon{
+    font-size: 1.2rem;
 }

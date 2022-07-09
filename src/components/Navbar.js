@@ -3,20 +3,16 @@ import * as HiIcons from "react-icons/hi";
 import * as AiIcons from "react-icons/ai";
 import * as MdIcons from "react-icons/md";
 import * as BsIcons from "react-icons/bs";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
 import { IconContext } from "react-icons";
 import * as RiIcons from "react-icons/ri";
 
 import logo from "../images/logo.png";
-function Navbar() {
+function Navbar({mode}) {
   const [sidebar, setSidebar] = useState(false);
-  // const [mode, setMode] = useState(false);
-  // const Theme = () => {
-  //   setMode(!mode);
-  //   alert(mode);
-  // };
+  
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
@@ -35,10 +31,13 @@ function Navbar() {
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className="list-el">
-                  <Link to={item.path} className="nav-icon">
+                  <NavLink
+                    to={item.path}
+                    className="nav-icon"
+                    activeClassName="nav-icon-active"
+                  >
                     {item.title}
-                    
-                  </Link>
+                  </NavLink>
                 </li>
               );
             })}
@@ -60,10 +59,10 @@ function Navbar() {
           {SidebarData.map((item, index) => {
             return (
               <li key={index} className={item.cName}>
-                <Link to={item.path}>
+                <NavLink to={item.path}>
                   {item.icon}
                   <span>{item.title}</span>
-                </Link>
+                </NavLink>
               </li>
             );
           })}

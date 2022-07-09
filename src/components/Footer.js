@@ -1,10 +1,15 @@
 import React from "react";
 import "./Footer.css";
+import * as HiIcons from "react-icons/hi";
 const Footer = () => {
   return (
     <div className="footer">
-      {" "}
-      cvyucv b hjs c vhj shj scvc cvyuw cch hvu Footer
+      <p>
+        <span className="footer-icon">
+          <HiIcons.HiOutlineMailOpen />{" "}
+        </span>
+        KARTIKKTYR@GMAIL.COM
+      </p>
     </div>
   );
 };

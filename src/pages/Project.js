@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Card from "../components/Card";
 
 const Project = () => {
   return (
-    <div>Project</div>
-  )
-}
+    <div>
+      <Card />
+    </div>
+  );
+};
 
-export default Project
+export default Project;

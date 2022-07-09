@@ -12,11 +12,17 @@ import { useState } from "react";
 import Loading from "./components/Loading";
 
 function App() {
+
+  const [mode, setMode] = useState(false);
+  const Theme = () => {
+    setMode(!mode);
+    alert(mode);
+  };
   const [isPending, setPending] = useState(true);
   useEffect(() => {
     setTimeout(() => {
       setPending(false);
-    }, 0);
+    }, 4200);
   });
   return (
     <>
@@ -24,8 +30,8 @@ function App() {
       {!isPending && (
         <div className="App">
           <Router>
-            <Navbar />
-
+            <Navbar status={mode}/>
+            
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
