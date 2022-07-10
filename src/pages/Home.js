@@ -5,6 +5,7 @@ import * as SiIcon from "react-icons/si";
 import * as BsIcon from "react-icons/bs";
 import Carousel from "../components/Carousel";
 import TechStack from "../components/TechStack";
+import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <>
@@ -38,7 +39,9 @@ const Home = () => {
                 text ever since the{" "}
               </p>
               <div className="button">
-                <button className="btn projects">Projects</button>
+                <NavLink to="/project">
+                  <button className="btn projects">Projects</button>
+                </NavLink>
                 <button className="btn resume">Resume</button>
               </div>
             </div>

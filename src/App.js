@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setPending(false);
-    }, 4200);
+    }, 0);
   });
   return (
     <>
