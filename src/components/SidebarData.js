@@ -21,22 +21,16 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Skills",
-    path: "/skill",
-    icon: <SiIcon.SiCodesandbox />,
-    cName: "nav-text",
-  },
-  {
     title: "Projects",
     path: "/project",
     icon: <MdIcon.MdTask />,
     cName: "nav-text",
   },
-  {
-    title: "Contact",
-    path: "/contact",
-    icon: <RiIcon.RiMessage2Fill />,
-    cName: "nav-text",
-  },
+  // {
+  //   title: "Contact",
+  //   path: "/contact",
+  //   icon: <RiIcon.RiMessage2Fill />,
+  //   cName: "nav-text",
+  // },
  
 ];

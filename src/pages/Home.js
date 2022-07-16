@@ -12,15 +12,21 @@ const Home = () => {
       <div className="home-page">
         <div className="s-link">
           <ul className="s-link-list">
-            <li>
-              <AiIcon.AiFillGithub />
-            </li>
-            <li>
-              <AiIcon.AiFillLinkedin />
-            </li>
-            <li>
-              <SiIcon.SiLeetcode />
-            </li>
+            <a href="https://github.com/katiyarkartik">
+              <li>
+                <AiIcon.AiFillGithub />
+              </li>
+            </a>
+            <a href="https://www.linkedin.com/in/kartik-katiyar-71096a1a0/">
+              <li>
+                <AiIcon.AiFillLinkedin />
+              </li>
+            </a>
+            <a href="https://leetcode.com/kartikktyr/">
+              <li>
+                <SiIcon.SiLeetcode />
+              </li>
+            </a>
           </ul>
         </div>
         <div className="home-content">
@@ -38,11 +44,11 @@ const Home = () => {
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the{" "}
               </p>
-              <div className="button">
+              <div className="btn">
                 <NavLink to="/project">
-                  <button className="btn projects">Projects</button>
+                  <button>Projects</button>
                 </NavLink>
-                <button className="btn resume">Resume</button>
+                <button>Resume</button>
               </div>
             </div>
           </div>

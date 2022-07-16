@@ -10,9 +10,9 @@ import { IconContext } from "react-icons";
 import * as RiIcons from "react-icons/ri";
 
 import logo from "../images/logo.png";
-function Navbar({mode}) {
+function Navbar({ mode }) {
   const [sidebar, setSidebar] = useState(false);
-  
+
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
@@ -20,7 +20,9 @@ function Navbar({mode}) {
       <div className="navbar">
         <div>
           <p className="logo">
-            <img src={logo} />
+            <Link to="/">
+              <img src={logo} />
+            </Link>
             <p className="logo-name"> Kartik Katiyar</p>
           </p>
         </div>

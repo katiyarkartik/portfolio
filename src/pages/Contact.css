@@ -1,0 +1,33 @@
+.contact{
+    height: 82vh;
+    /* background-color: white; */
+    color: #000428;
+    padding: 60px;
+    color: white;
+}
+.contact-container{
+    width: 800px;
+    margin-top: 200px;
+    /* background-color: aqua; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-list{
+    display: flex;
+    justify-content: space-around;
+    font-size: 36px;
+}
+
+@media screen and (max-width:530px) {
+    .contact-list{
+        display: block;
+    }
+}
+@media screen and (max-width:950px) {
+    .contact-container{
+     width: 480px;
+    }
+    .contact{
+        padding: 10px
+    }
+}

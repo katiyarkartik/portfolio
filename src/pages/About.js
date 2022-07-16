@@ -32,7 +32,7 @@ const About = () => {
         <div className="edu">
           <div className="edu-list">
             <p className="school-name">
-              Bharati Vidyapeth college of Engineering
+              Bharati Vidyapeeth's college of Engineering
             </p>
             <p>B.Tech in Information Technology</p>
             <p>
@@ -79,10 +79,10 @@ const About = () => {
           </div>
         </div>
         {/* dhvbdvb */}
-        <div className="sub-heading">
+        {/* <div className="sub-heading">
           <TbCertificate />
           <span> Certifiactions</span>
-        </div>
+        </div> */}
 
         <ul></ul>
       </div>

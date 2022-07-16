@@ -5,7 +5,6 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
-import Skil from "./pages/Skil";
 import Footer from "./components/Footer";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -22,7 +21,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setPending(false);
-    }, 4200);
+    }, 0);
   });
   return (
     <>
@@ -35,9 +34,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
-              <Route path="/skill" element={<Skil />} />
               <Route path="/project" element={<Project />} />
-              <Route path="/contact" element={<Contact />} />
+              {/* <Route path="/contact" element={<Contact />} /> */}
             </Routes>
 
             <Footer />
