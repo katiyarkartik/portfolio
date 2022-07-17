@@ -1,4 +1,7 @@
 .project{
     margin: 40px;
-    display: grid;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+ 
 }
