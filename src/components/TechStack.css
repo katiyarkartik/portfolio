@@ -13,3 +13,17 @@
 .web img{
     margin: 40px;
 }
+@media screen and (max-width: 930px) {
+    .web{
+        justify-content: center;
+    }
+    .web img{height: 60px;
+    margin:  20px;}
+  }
+@media screen and (max-width: 720px) {
+    .web{
+        display: block;
+        justify-content: center;
+    }
+   
+  }
