@@ -115,7 +115,7 @@ line-height: 72px;
   } */
   .home-page{
     margin: 2rem;
-   
+    height: 100%;
     display: flex;
   }
   .btn button{
