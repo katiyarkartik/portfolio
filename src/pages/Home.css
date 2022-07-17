@@ -208,6 +208,7 @@ line-height: 72px;
    }
    .bio{
     font-size: 1.1rem;
+    text-align: left;
    }
 
   @media screen and (max-width:650px) {

@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
+import AnimatedRoutes from "../components/AnimatedRoutes";
+import Card from "../components/Card";
+ 
+import "./Project.css";
 
 const Project = () => {
   return (
-    <div>
+    <AnimatedRoutes>
+      <div className="project">
+        {/* <div className="title">Scheduler App</div> */}
+        <Card />
+        <br />
+        {/* <div className="title">Scheduler App</div> */}
+        <Card />
       
-    </div>
-  )
-}
+      </div>
+    </AnimatedRoutes>
+  );
+};
 
-export default Project
+export default Project;

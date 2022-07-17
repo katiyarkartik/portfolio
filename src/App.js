@@ -9,9 +9,9 @@ import Footer from "./components/Footer";
 import { useEffect } from "react";
 import { useState } from "react";
 import Loading from "./components/Loading";
+import AnimatedRoutes from "./components/AnimatedRoutes";
 
 function App() {
-
   const [mode, setMode] = useState(false);
   const Theme = () => {
     setMode(!mode);
@@ -21,7 +21,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setPending(false);
-    }, 0);
+    }, 4200);
   });
   return (
     <>
@@ -29,14 +29,19 @@ function App() {
       {!isPending && (
         <div className="App">
           <Router>
-            <Navbar status={mode}/>
-            
-            <Routes>
+            <Navbar status={mode} />
+
+            <Routes >
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/project" element={<Project />} />
-              {/* <Route path="/contact" element={<Contact />} /> */}
             </Routes>
+            {/* <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/project" element={<Project />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes> */}
 
             <Footer />
           </Router>

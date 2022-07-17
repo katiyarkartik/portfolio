@@ -6,63 +6,68 @@ import * as BsIcon from "react-icons/bs";
 import Carousel from "../components/Carousel";
 import TechStack from "../components/TechStack";
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
+import AnimatedRoutes from "../components/AnimatedRoutes";
 const Home = () => {
   return (
-    <>
-      <div className="home-page">
-        <div className="s-link">
-          <ul className="s-link-list">
-            <a href="https://github.com/katiyarkartik">
-              <li>
-                <AiIcon.AiFillGithub />
-              </li>
-            </a>
-            <a href="https://www.linkedin.com/in/kartik-katiyar-71096a1a0/">
-              <li>
-                <AiIcon.AiFillLinkedin />
-              </li>
-            </a>
-            <a href="https://leetcode.com/kartikktyr/">
-              <li>
-                <SiIcon.SiLeetcode />
-              </li>
-            </a>
-          </ul>
-        </div>
-        <div className="home-content">
-          <div className="home-body">
-            <div className="intro">
-              <p>
-                H<span className="intro-s">i,</span>
-              </p>
-              <p>
-                I am <span className="intro-s name">Kartik Katiyar</span>
-              </p>
-              <p className="desig">Software Developer</p>
-              <p className="bio">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the{" "}
-              </p>
-              <div className="btn">
-                <NavLink to="/project">
-                  <button>Projects</button>
-                </NavLink>
-                <button>Resume</button>
+    <AnimatedRoutes>
+      <div>
+        <div className="home-page">
+          <div className="s-link">
+            <ul className="s-link-list">
+              <a href="https://github.com/katiyarkartik">
+                <li>
+                  <AiIcon.AiFillGithub />
+                </li>
+              </a>
+              <a href="https://www.linkedin.com/in/kartik-katiyar-71096a1a0/">
+                <li>
+                  <AiIcon.AiFillLinkedin />
+                </li>
+              </a>
+              <a href="https://leetcode.com/kartikktyr/">
+                <li>
+                  <SiIcon.SiLeetcode />
+                </li>
+              </a>
+            </ul>
+          </div>
+          <div className="home-content">
+            <div className="home-body">
+              <div className="intro">
+                <p>
+                  H<span className="intro-s">i,</span>
+                </p>
+                <p>
+                  I am <span className="intro-s name">Kartik Katiyar</span>
+                </p>
+                <p className="desig">Software Developer</p>
+                <p className="bio">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the{" "}
+                </p>
+                <div className="btn">
+                  <NavLink to="/project">
+                    <button>Projects</button>
+                  </NavLink>
+                  <button>Resume</button>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="right-home">
-            <Carousel />
+            <div className="right-home">
+              <Carousel />
+            </div>
           </div>
         </div>
-      </div>
-      {/* <hr color="#ffb510" className="sec-div"/> */}
-      {/* <div>
+        {/* <hr color="#ffb510" className="sec-div"/> */}
+        {/* <div>
         <TechStack />
       </div>
      */}
-    </>
+        <TechStack />
+      </div>
+    </AnimatedRoutes>
   );
 };
 

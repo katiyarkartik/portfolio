@@ -7,9 +7,10 @@ import { TbCertificate } from "react-icons/tb";
 import { MdOutlineWork } from "react-icons/md";
 import { BsCalendarDate } from "react-icons/bs";
 import dp from "../images/profilepic.jpeg";
+import AnimatedRoutes from "../components/AnimatedRoutes";
 const About = () => {
   return (
-    <>
+    <AnimatedRoutes>
       <div className="about">
         <h1 className="about-me">About Me</h1>
 
@@ -86,7 +87,7 @@ const About = () => {
 
         <ul></ul>
       </div>
-    </>
+    </AnimatedRoutes>
   );
 };
 
