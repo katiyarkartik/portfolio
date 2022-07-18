@@ -21,7 +21,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setPending(false);
-    }, 0);
+    }, 4200);
   });
   return (
     <>

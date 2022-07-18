@@ -5,13 +5,12 @@ import { BsGithub } from "react-icons/bs";
 import "./Card.css";
 function BasicExample() {
   return (
-    <div className="card">
-      <Card  style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={img1} />
-        <Card.Body>
-          <Card.Title>
-            Card Title{" "}
-            {/* <span
+    <Card style={{ width: "18rem", marginLeft: "auto", marginRight: "auto" , marginTop:"40px"}}>
+      <Card.Img variant="top" src={img1} />
+      <Card.Body>
+        <Card.Title>
+          Card Title{" "}
+          {/* <span
               style={{
                 marginLeft:"60px",
                 color: "#000428",
@@ -27,15 +26,13 @@ function BasicExample() {
             >
               View More
             </span> */}
-          </Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary" >
-           View Project
-          </Button>
-          {/* <Button
+        </Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">View Project</Button>
+        {/* <Button
             variant="secondary"
             style={{
               marginLeft: "55px",
@@ -46,9 +43,8 @@ function BasicExample() {
           >
             <BsGithub />
           </Button> */}
-        </Card.Body>
-      </Card>
-    </div>
+      </Card.Body>
+    </Card>
   );
 }
 
