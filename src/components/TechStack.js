@@ -17,7 +17,7 @@ const TechStack = () => {
     <div className="tech">
       <div className="web frontend">
         <img src={reactimg} alt="" />
-        <img src={Ajax} alt="" />
+        
         <img src={Js} alt="" />
         <img src={bs} alt="" />
         

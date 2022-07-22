@@ -37,12 +37,13 @@ const About = () => {
             </p>
             <p>B.Tech in Information Technology</p>
             <p>
-              <em>CGPA: 9.00</em>
+              <em>CGPA: 9.036</em>
             </p>
             <p>
               <BsCalendarDate /> 2019-2023
             </p>
           </div>
+          
           <br />
           <div className="edu-list">
             <p className="school-name">Greenway modern school</p>
