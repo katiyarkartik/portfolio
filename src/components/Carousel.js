@@ -2,6 +2,9 @@ import React from "react";
 import logo from "../images/logo.png";
 import "./Carousel.css";
 import img1 from "../images/1720.jpg";
+import img2 from "../images/projects/vsa0.png"
+import img3 from "../images/projects/tca0.png"
+import img4 from "../images/projects/ec.png"
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { MdMinimize } from "react-icons/md";
 const Carousel = () => {
@@ -24,13 +27,13 @@ const Carousel = () => {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block  image" src={img1} alt="First slide" />
+            <img className="d-block  image" src={img2} alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block" src={img1} alt="Second slide" />
+            <img className="d-block" src={img3} alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block image " src={img1} alt="Third slide" />
+            <img className="d-block image " src={img4} alt="Third slide" />
           </div>
         </div>
         <a

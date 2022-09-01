@@ -18,12 +18,10 @@ const About = () => {
           <p className="profile-pic">
             <img src={dp} />
           </p>
-          <p className="bio">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti quos
-            dolores et quas molestias excepturi sint occaecati cupiditate non
-            provident, similique sunt in culpa qui officia deserunt mollitia
-            animi, id est laborum et dolorum fuga.{" "}
+          <p className="bio" style={{ textAlign: "center", marginTop: "20px" }}>
+            I am Kartik Katiyar ,a tech enthusiast, I have great interest in
+            programming , webdevelopment. My other skills are 3D modelling using
+            Blender
           </p>
         </div>
         <div className="sub-heading">
@@ -43,7 +41,7 @@ const About = () => {
               <BsCalendarDate /> 2019-2023
             </p>
           </div>
-          
+
           <br />
           <div className="edu-list">
             <p className="school-name">Greenway modern school</p>

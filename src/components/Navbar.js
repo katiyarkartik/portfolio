@@ -35,7 +35,7 @@ function Navbar({ mode }) {
                 <li key={index} className="list-el">
                   <NavLink
                     to={item.path}
-                    className="nav-icon"
+                    className="nav-icon "
                     activeClassName="nav-icon-active"
                   >
                     {item.title}

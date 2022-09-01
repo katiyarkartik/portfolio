@@ -31,10 +31,11 @@ function App() {
           <Router>
             <Navbar status={mode} />
 
-            <Routes >
+            <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/project" element={<Project />} />
+             
             </Routes>
             {/* <Routes>
               <Route path="/" element={<Home />} />

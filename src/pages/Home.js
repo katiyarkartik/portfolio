@@ -43,15 +43,14 @@ const Home = () => {
                 </p>
                 <p className="desig">Software Developer</p>
                 <p className="bio">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the{" "}
+                  Software Developer | WEB DEVELOPMENT : HTML , CSS ,Javascript
+                  ,ReactJs , Bootstrap, NodeJs, MongoDB, ExpressJs | C++ , Data
+                  Structures and Algorithms
                 </p>
                 <div className="btn">
                   <NavLink to="/project">
                     <button>Projects</button>
                   </NavLink>
-                  <button>Resume</button>
                 </div>
               </div>
             </div>

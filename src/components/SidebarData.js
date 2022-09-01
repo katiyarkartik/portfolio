@@ -26,6 +26,7 @@ export const SidebarData = [
     icon: <MdIcon.MdTask />,
     cName: "nav-text",
   },
+  
   // {
   //   title: "Contact",
   //   path: "/contact",

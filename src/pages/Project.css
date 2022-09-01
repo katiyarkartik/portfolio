@@ -1,9 +1,14 @@
-.project{
+/* .project{
     margin: 40px;
     display: flex;
     justify-content: space-around;
     min-height: 100vh;
     height: 100%;
+} */
+.project-div{
+    min-height: 100vh;
+    height: 100%;
+    padding: 0 100px ; 
 }
 @media screen and (max-width:990px){
 

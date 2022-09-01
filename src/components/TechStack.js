@@ -10,17 +10,18 @@ import Ajax from "../images/web/Ajax.png";
 import mongo from "../images/web/Mongo.png";
 import Express from "../images/web/Express.png";
 import blender from "../images/web/Blender.png";
-import unity from "../images/web/unity.svg";
+import cpp from "../images/web/C++.png";
 import bs from "../images/web/ReactBootstrap.png";
 const TechStack = () => {
   return (
     <div className="tech">
       <div className="web frontend">
+        <img src={cpp} alt="" />
         <img src={reactimg} alt="" />
-        
+
         <img src={Js} alt="" />
         <img src={bs} alt="" />
-        
+
         <img src={html} alt="" />
 
         <img src={Css} alt="" />
