@@ -1,25 +1,61 @@
-/* .project{
-    margin: 40px;
-    display: flex;
-    justify-content: space-around;
-    min-height: 100vh;
-    height: 100%;
-} */
-.project-div{
-    min-height: 100vh;
-    height: 100%;
-    padding: 0 100px ; 
-}
-@media screen and (max-width:990px){
-
-    .project{
-
-      display: block;
-      justify-content: center;
-width: 80%;
-margin-left: auto;
-margin-right: auto;
-
-     }
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    color: black;
+  }
+  
+  .project-card {
+   
     
+    padding: 20px;
+    background: #000428;
+    background-color: rgba(0, 18, 50, 0.686);
+    box-shadow:  20px 20px 74px #00031e,
+                 -20px -20px 74px #000532;
+    margin-right: 30px;
+
+   
+    transition: transform 0.2s ease-in-out;
+     
+    &:hover {
+      transform: scale(1.03);
+    }
+    .rating{
+        display: flex;
+        /* background-color: aqua; */
+    }
+  .image-box{
+    width: 100%;
+    background-color: aqua;
+    height: 200px;
+  }
+    .image-box img {
+      width: 100%;
+      
+      height: auto;
+     
+      margin-bottom: 20px;
+    }
+  
+    h3 {
+      font-size: 18px;
+      margin: 0;
+    }
+  
+    p {
+      font-size: 14px;
+      margin: 10px 0;
+    }
+  }
+  .add-to-cart{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+  }
+  
+.project-name{
+color: white;
 }
+ 

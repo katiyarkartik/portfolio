@@ -15,14 +15,14 @@ const About = () => {
         <h1 className="about-me">About Me</h1>
 
         <div className="details">
-          <p className="profile-pic">
-            <img src={dp} />
-          </p>
           <p className="bio" style={{ textAlign: "center", marginTop: "20px" }}>
             I am Kartik Katiyar ,a tech enthusiast, I have great interest in
-            programming , webdevelopment. My other skills are 3D modelling using
-            Blender
+            programming, web development.
           </p>
+        </div>
+        <div className="skills">
+        <h3>Skills</h3>
+        <p>C++, Web Development, Machine Learning </p>
         </div>
         <div className="sub-heading">
           <IoIosSchool />
