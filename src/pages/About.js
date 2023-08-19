@@ -35,7 +35,7 @@ const About = () => {
             </p>
             <p>B.Tech in Information Technology</p>
             <p>
-              <em>CGPA: 9.036</em>
+              <em>CGPA: 9.03</em>
             </p>
             <p>
               <BsCalendarDate /> 2019-2023
